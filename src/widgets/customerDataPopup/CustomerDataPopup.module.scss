@@ -1,0 +1,37 @@
+.formStyle {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	color: white;
+
+	max-height: 90vh;
+	overflow: scroll;
+	padding-right: 10px;
+
+	@media screen and (min-width: 768px) {
+		width: 500px;
+	}
+	@media screen and (max-width: 768px) {
+		width: 300px;
+	}
+	@media screen and (max-width: 390px) {
+		width: 250px;
+	}
+	@media screen and (max-width: 342px) {
+		width: 100%;
+	}
+}
+
+.titleForm {
+	color: white;
+}
+
+.confirmOrder {
+	margin-right: 20px;
+	color: white;
+	width: 500px;
+}
+
+.formStyle::-webkit-scrollbar-button {
+	height: 40px; /* vertical scrollbar height */
+}

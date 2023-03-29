@@ -1,0 +1,95 @@
+.BagWrapper {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+
+	@media screen and (min-width: 1024px) {
+		width: 1000px;
+	}
+	@media screen and (min-width: 768px) {
+		width: 700px;
+	}
+}
+
+.image {
+	border-radius: 1rem;
+	width: 100px;
+	height: 100px;
+	objectFit: 'cover' 
+}
+
+.BagBox {
+	position: relative;
+	background-color: #0e1a22;
+	padding: 1rem;
+	border-radius: 1rem;
+
+	display: flex;
+	@media screen and (max-width: 768px) {
+		flex-direction: column;
+	}
+}
+
+.bagDes {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.bagDesTitle {
+	margin: 0px;
+}
+
+.price {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+.leftBox {
+	position: relative;
+	margin-left: auto;
+	display: flex;
+	gap: 10px;
+	@media screen and (max-width: 768px) {
+		margin-top: 10px
+	}
+}
+
+.close {
+	position: absolute;
+	top: 0rem;
+	right: 1rem;
+	font-size: 30px;
+	line-height: 20px;
+	margin-top: 10px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 100ms;
+	z-index: 1;
+}
+.close:hover {
+	color: #000;
+	cursor: pointer;
+}
+
+.bagTotal {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bagTotal_left {
+	flex: 0 0 auto;
+}
+
+.bagTotal_center {
+	flex: 1 0 auto;
+	text-align: center;
+}
+
+.rightBox {
+	display: flex;
+	gap: 30px;
+}

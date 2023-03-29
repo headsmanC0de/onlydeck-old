@@ -1,0 +1,46 @@
+.steamDeckItem {
+	height: 50%;
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	padding: 2rem;
+	cursor: pointer;
+	background-color: black;
+	border-radius: 2rem;
+	@media screen and (max-width: 768px) {
+		height: 25rem;
+	}
+}
+
+.image {
+	border-radius: 2rem;
+}
+
+.tags {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	gap: 10px;
+	@media screen and (max-width: 768px) {
+		flex-direction: column;
+	}
+}
+
+.v512 {
+	flex: 1 1 55%;
+}
+
+.v256 {
+	flex: 1 1 40%;
+	@media screen and (max-width: 768px) {
+		flex: 1 1 50%;
+	}
+}
+
+.v64,
+.vdock {
+	flex: 1 1 49%;
+}

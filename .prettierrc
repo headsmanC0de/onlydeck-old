@@ -1,0 +1,23 @@
+{
+	"tabWidth": 4,
+	"endOfLine": "lf",
+	"printWidth": 150,
+	"trailingComma": "es5",
+	"singleQuote": true,
+	"jsxSingleQuote": true,
+	"singleAttributePerLine": true,
+
+	"importOrderGroupNamespaceSpecifiers": true,
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true,
+	"importOrder": [
+		"^(^react$|@react|react|^recoil$)",
+		"^@mui/(.*)$",
+		"<THIRD_PARTY_MODULES>",
+		"^(components|configs|container|layouts|providers|types)(.*)$",
+		"^@/(.*)$",
+		"^[./]"
+	],
+
+	"importOrderParserPlugins": ["typescript", "decorators-legacy", "jsx"]
+}

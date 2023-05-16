@@ -31,7 +31,7 @@ export const SteamDeckStorage: ISteamDeck[] = [
 		image: steamDeck256,
 		title: 'Steam Deck™ (256 GB)',
 		version: 256,
-		price: 25000,
+		price: 24500,
 		description: ['256 ГБ внутрішнього сховища NVMe SSD', 'Швидше сховище', 'Футляр', 'Ексклюзивний комплект профілю спільноти Steam'],
 		photos: [steamDeck1, steamDock3, steamDock4, steamDock5, steamDeckDock, steamDeckDock2, steamDeckDock3],
 	},
@@ -39,7 +39,7 @@ export const SteamDeckStorage: ISteamDeck[] = [
 		image: steamDeck64,
 		title: 'Steam Deck™ (64 GB)',
 		version: 64,
-		price: 19000,
+		price: 18500,
 		description: ['64 ГБ внутрішнього сховища eMMC', 'Футляр'],
 		photos: [steamDeck1, steamDock3, steamDock4, steamDock5, steamDeckDock, steamDeckDock2, steamDeckDock3],
 	},
@@ -47,7 +47,7 @@ export const SteamDeckStorage: ISteamDeck[] = [
 		image: steamDock,
 		title: 'Steam Dock™',
 		version: 'dock',
-		price: 5800,
+		price: 5700,
 		description: [
 			'Док-станція Steam Deck™ створена, щоб додати нові можливості вашій ігровій системі. Підключайте Steam Deck до телевізора у вітальні, використовуйте його на робочому місці, заряджайте на тумбочці біля ліжка — док-станція є ідеальним рішенням для відкриття нових місць і способів користування Steam Deck.	Док-станція не завелика й не замала — її розмір і форма ідеальні для надійного тримання Steam Deck. Від гнучкого перехідника USB-C належної довжини з вертикальним конектором до оправленого гумою гнізда, що захищає пристрій від подряпин, — док-станція створена для Steam Deck.'
 		],

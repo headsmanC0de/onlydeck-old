@@ -39,7 +39,7 @@ export const SteamDeckStorage: ISteamDeck[] = [
 		image: steamDeck64,
 		title: 'Steam Deck™ (64 GB)',
 		version: 64,
-		price: 19000,
+		price: 19800,
 		description: ['64 ГБ внутрішнього сховища eMMC', 'Футляр'],
 		photos: [steamDeck1, steamDock3, steamDock4, steamDock5, steamDeckDock, steamDeckDock2, steamDeckDock3],
 	},

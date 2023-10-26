@@ -16,7 +16,7 @@ export const SteamDeckStorage: ISteamDeck[] = [
 		image: steamDeck512,
 		title: 'Steam Deck™ (512 GB)',
 		version: 512,
-		price: 27500,
+		price: 26500,
 		description: [
 			'512 ГБ внутрішнього сховища NVMe SSD',
 			'Найшвидше сховище',
@@ -39,7 +39,7 @@ export const SteamDeckStorage: ISteamDeck[] = [
 		image: steamDeck64,
 		title: 'Steam Deck™ (64 GB)',
 		version: 64,
-		price: 19500,
+		price: 18500,
 		description: ['64 ГБ внутрішнього сховища eMMC', 'Футляр'],
 		photos: [steamDeck1, steamDock3, steamDock4, steamDock5, steamDeckDock, steamDeckDock2, steamDeckDock3],
 	},

@@ -41,6 +41,7 @@ const CustomerDataPopup: FC<CustomerDataPopupProps> = ({ bag, steamDeck, setVisi
 			? newArr
 			: [
 					{
+						newVersion: steamDeck.newVersion,
 						version: steamDeck.version,
 						price: steamDeck.price,
 						status: 'не оплачено',

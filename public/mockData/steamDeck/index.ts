@@ -38,7 +38,7 @@ export const SteamDeckStorage: ISteamDeck[] = [
 		title: 'Steam Deck™ (512) OLED',
 		newVersion: '512GB OLED',
 		version: 256,
-		price: 33000,
+		price: 32000,
 		description: [
 			'512 ГБ NVMe SSD',
 			'OLED-екран з HDR, 1280x800 пікселів',

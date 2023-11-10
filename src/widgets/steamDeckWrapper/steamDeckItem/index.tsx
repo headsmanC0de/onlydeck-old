@@ -18,13 +18,13 @@ const SteamDeckItem: FC<SteamDeckItemProps> = ({ steamDeck }) => {
 			<div
 				onClick={() => setVisibility(!visibility)}
 				className={`
-					${styles.steamDeckItem} 
+					${styles.steamDeckItem}
 					${styles['v' + steamDeck.version]}
 				`}
 			>
 				<div className={styles.tags}>
 					<Tag
-						text={steamDeck.version}
+						text={steamDeck.newVersion}
 						type={'version'}
 					/>
 					<Tag

@@ -4,7 +4,8 @@ import { NEXT_SEO_DEFAULT } from 'src/utils/next-seo-config';
 export default function Head() {
 	return (
 		<>
-			<meta charSet='UTF-8' />
+			<meta charSet='utf-8' />
+
 			<meta
 				content='width=device-width, initial-scale=1'
 				name='viewport'
@@ -19,8 +20,17 @@ export default function Head() {
 			/>
 			<meta
 				name='keywords'
-				content='SteamDeck, SteamDeck 512, SteamDeck 256, SteamDeck 64, SteamDock, стім дек, стім дек 512, стім дек 256, стім дек 64, стім док, купити стім дек'
+				content='OnlyDeck, Steam Deck, аксесуари для Steam Deck, ігрові приставки, ігри для PC'
 			/>
+			<meta
+				name='description'
+				content='Інтернет-магазин [Ваша назва магазину]: ваше односерійне рішення для придбання Steam Deck та аксесуарів. Великий вибір, ексклюзивні аксесуари, спеціальні пропозиції. Купуйте з нами та отримуйте якісне обслуговування, швидку доставку по всій Україні та гарантію задоволення!'
+			/>
+			<meta
+				name='robots'
+				content='index,follow'
+			/>
+
 			<meta
 				name='theme-color'
 				content='#0d171f'

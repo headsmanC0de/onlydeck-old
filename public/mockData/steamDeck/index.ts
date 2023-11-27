@@ -58,7 +58,7 @@ export const SteamDeckStorage: ISteamDeck[] = [
 		title: 'Steam Deck™ (512 GB) LCD',
 		newVersion: '512GB LCD',
 		version: 64,
-		price: 24500,
+		price: 23500,
 		description: [
 			'512 ГБ NVMe SSD',
 			'Оптично приєднаний РК-екран із високоякісним матованим склом з антибліковим покриттям, 1280x800 пікселів',
